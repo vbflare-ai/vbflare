@@ -1,0 +1,135 @@
+{
+  "nav": {
+    "services": "Services",
+    "about": "About",
+    "team": "Team",
+    "contact": "Contact",
+    "contactButton": "Get in Touch"
+  },
+  "hero": {
+    "title": "Creating",
+    "titleHighlight": "digital future",
+    "description": "VBflare is an innovative IT company specializing in developing modern web applications, mobile solutions, and digital business transformation",
+    "startProject": "Start Project",
+    "viewPortfolio": "View Portfolio"
+  },
+  "services": {
+    "web": {
+      "title": "Web Development",
+      "description": "Modern web applications using React, Next.js and other cutting-edge technologies"
+    },
+    "mobile": {
+      "title": "Mobile Applications",
+      "description": "Native and cross-platform mobile solutions for iOS and Android"
+    },
+    "digital": {
+      "title": "Digital Transformation",
+      "description": "Business process automation and implementation of modern IT solutions"
+    }
+  },
+  "about": {
+    "title": "About VBflare",
+    "description": "We are a young and ambitious team where an experienced leader develops talented developers through work on real projects. Our goal is to create quality IT solutions and grow a new generation of specialists",
+    "mission": "Our Mission",
+    "missionText": "We created VBflare as a platform for gaining real experience in IT. Every project is an opportunity for the team to grow, learn and create quality solutions for clients.",
+    "stats": {
+      "projects": "Projects",
+      "specialists": "Specialists",
+      "experience": "Years Experience",
+      "quality": "Quality"
+    },
+    "achievements": {
+      "portfolio": "Growing project portfolio",
+      "experience": "4 years of IT experience",
+      "team": "Team of 3 specialists"
+    }
+  },
+  "servicesDetailed": {
+    "title": "Our Services",
+    "description": "Full range of IT services for your business development",
+    "web": {
+      "title": "Web Development",
+      "description": "We create modern, fast and SEO-optimized websites and applications",
+      "features": [
+        "React, Next.js, Vue.js",
+        "Node.js, Python, PHP",
+        "Responsive design",
+        "PWA applications"
+      ]
+    },
+    "mobile": {
+      "title": "Mobile Development",
+      "description": "Native and cross-platform mobile applications for iOS and Android",
+      "features": [
+        "React Native, Flutter",
+        "Swift, Kotlin",
+        "UI/UX design",
+        "App Store optimization"
+      ]
+    },
+    "analytics": {
+      "title": "Analytics & BI",
+      "description": "Business intelligence systems and big data processing",
+      "features": [
+        "Dashboards and reports",
+        "Machine Learning",
+        "Data Mining",
+        "Forecasting"
+      ]
+    }
+  },
+  "team": {
+    "title": "Our Team",
+    "description": "A team of like-minded people: an experienced leader and talented developers growing together",
+    "members": {
+      "elyor": {
+        "name": "Elyor Shodiyorov",
+        "position": "CEO & Founder & CTO",
+        "description": "Company founder with 4 years of IT experience. Leads technical direction and team development"
+      },
+      "dilshod": {
+        "name": "Dilshod Shodiyorov",
+        "position": "Developer",
+        "description": "Developer studying modern technologies and gaining experience in real projects"
+      },
+      "shahriyor": {
+        "name": "Shahriyor Shodiyorov",
+        "position": "Developer",
+        "description": "Developer actively developing in IT and participating in creating innovative solutions"
+      }
+    }
+  },
+  "contact": {
+    "title": "Contact Us",
+    "description": "Ready to discuss your project? We are always open to new opportunities",
+    "info": "Contact Information",
+    "form": {
+      "title": "Send Message",
+      "name": "Your Name",
+      "email": "Email",
+      "message": "Tell us about your project",
+      "submit": "Send Message"
+    },
+    "details": {
+      "email": "Email",
+      "phone": "Phone",
+      "address": "Address"
+    }
+  },
+  "footer": {
+    "description": "Innovative IT company creating digital solutions of the future. We turn your ideas into successful products.",
+    "services": "Services",
+    "company": "Company",
+    "links": {
+      "webDev": "Web Development",
+      "mobileApps": "Mobile Apps",
+      "uiux": "UI/UX Design",
+      "consulting": "Consulting",
+      "about": "About",
+      "team": "Team",
+      "careers": "Careers",
+      "contact": "Contact"
+    },
+    "copyright": "© 2024 VBflare. All rights reserved. Made with ❤️ by VBflare team"
+  }
+}

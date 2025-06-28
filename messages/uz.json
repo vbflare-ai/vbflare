@@ -1,0 +1,135 @@
+{
+  "nav": {
+    "services": "Xizmatlar",
+    "about": "Biz haqimizda",
+    "team": "Jamoa",
+    "contact": "Aloqa",
+    "contactButton": "Bog'lanish"
+  },
+  "hero": {
+    "title": "Yaratamiz",
+    "titleHighlight": "raqamli kelajak",
+    "description": "VBflare — zamonaviy veb-ilovalar, mobil yechimlar va biznesning raqamli transformatsiyasini ishlab chiqishga ixtisoslashgan innovatsion IT kompaniya",
+    "startProject": "Loyihani boshlash",
+    "viewPortfolio": "Portfolioni ko'rish"
+  },
+  "services": {
+    "web": {
+      "title": "Veb-dasturlash",
+      "description": "React, Next.js va boshqa ilg'or texnologiyalar asosida zamonaviy veb-ilovalar"
+    },
+    "mobile": {
+      "title": "Mobil ilovalar",
+      "description": "iOS va Android uchun mahalliy va cross-platform mobil yechimlar"
+    },
+    "digital": {
+      "title": "Raqamli transformatsiya",
+      "description": "Biznes jarayonlarini avtomatlashtirish va zamonaviy IT yechimlarini joriy etish"
+    }
+  },
+  "about": {
+    "title": "VBflare haqida",
+    "description": "Biz yosh va ambitsiyali jamoamiz, bu yerda tajribali rahbar iqtidorli dasturchilarga haqiqiy loyihalar ustida ishlash orqali rivojlanish imkoniyatini beradi. Bizning maqsadimiz — sifatli IT yechimlar yaratish va yangi avlod mutaxassislarini tarbiyalash",
+    "mission": "Bizning missiyamiz",
+    "missionText": "Biz VBflare'ni IT sohasida haqiqiy tajriba olish platformasi sifatida yaratdik. Har bir loyiha jamoa uchun o'sish, o'rganish va mijozlar uchun sifatli yechimlar yaratish imkoniyatidir.",
+    "stats": {
+      "projects": "Loyihalar",
+      "specialists": "Mutaxassis",
+      "experience": "Yil tajriba",
+      "quality": "Sifat"
+    },
+    "achievements": {
+      "portfolio": "O'sib borayotgan loyihalar portfoliosi",
+      "experience": "4 yillik IT tajriba",
+      "team": "3 mutaxassisdan iborat jamoa"
+    }
+  },
+  "servicesDetailed": {
+    "title": "Bizning xizmatlarimiz",
+    "description": "Biznesingizni rivojlantirish uchun to'liq IT xizmatlar spektri",
+    "web": {
+      "title": "Veb-dasturlash",
+      "description": "Zamonaviy, tez va SEO-optimallashtirilgan veb-saytlar va ilovalar yaratamiz",
+      "features": [
+        "React, Next.js, Vue.js",
+        "Node.js, Python, PHP",
+        "Adaptiv dizayn",
+        "PWA ilovalar"
+      ]
+    },
+    "mobile": {
+      "title": "Mobil dasturlash",
+      "description": "iOS va Android uchun mahalliy va cross-platform mobil ilovalar",
+      "features": [
+        "React Native, Flutter",
+        "Swift, Kotlin",
+        "UI/UX dizayn",
+        "App Store optimallashtirish"
+      ]
+    },
+    "analytics": {
+      "title": "Analitika va BI",
+      "description": "Biznes-analitika tizimlari va katta ma'lumotlarni qayta ishlash",
+      "features": [
+        "Dashboard va hisobotlar",
+        "Machine Learning",
+        "Data Mining",
+        "Prognozlash"
+      ]
+    }
+  },
+  "team": {
+    "title": "Bizning jamoamiz",
+    "description": "Bir fikrda bo'lgan jamoa: tajribali rahbar va birga o'sib borayotgan iqtidorli dasturchlar",
+    "members": {
+      "elyor": {
+        "name": "Elyor Shodiyorov",
+        "position": "CEO & Founder & CTO",
+        "description": "4 yillik IT tajribaga ega kompaniya asoschisi. Texnik yo'nalish va jamoa rivojlanishini boshqaradi"
+      },
+      "dilshod": {
+        "name": "Dilshod Shodiyorov",
+        "position": "Dasturchi",
+        "description": "Zamonaviy texnologiyalarni o'rganayotgan va haqiqiy loyihalarda tajriba to'playotgan dasturchi"
+      },
+      "shahriyor": {
+        "name": "Shahriyor Shodiyorov",
+        "position": "Dasturchi",
+        "description": "IT sohasida faol rivojlanayotgan va innovatsion yechimlar yaratishda ishtirok etayotgan dasturchi"
+      }
+    }
+  },
+  "contact": {
+    "title": "Biz bilan bog'laning",
+    "description": "Loyihangizni muhokama qilishga tayyormisiz? Biz har doim yangi imkoniyatlarga ochmiz",
+    "info": "Aloqa ma'lumotlari",
+    "form": {
+      "title": "Xabar yuborish",
+      "name": "Ismingiz",
+      "email": "Email",
+      "message": "Loyihangiz haqida gapirib bering",
+      "submit": "Xabar yuborish"
+    },
+    "details": {
+      "email": "Email",
+      "phone": "Telefon",
+      "address": "Manzil"
+    }
+  },
+  "footer": {
+    "description": "Kelajakning raqamli yechimlarini yaratuvchi innovatsion IT kompaniya. Biz sizning g'oyalaringizni muvaffaqiyatli mahsulotlarga aylantiramiz.",
+    "services": "Xizmatlar",
+    "company": "Kompaniya",
+    "links": {
+      "webDev": "Veb-dasturlash",
+      "mobileApps": "Mobil ilovalar",
+      "uiux": "UI/UX dizayn",
+      "consulting": "Konsalting",
+      "about": "Biz haqimizda",
+      "team": "Jamoa",
+      "careers": "Karyera",
+      "contact": "Aloqa"
+    },
+    "copyright": "© 2024 VBflare. Barcha huquqlar himoyalangan. VBflare jamoasi tomonidan ❤️ bilan yaratilgan"
+  }
+}
