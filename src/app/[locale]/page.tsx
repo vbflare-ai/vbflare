@@ -1,6 +1,7 @@
 'use client';
 
 import {useTranslations, useLocale} from 'next-intl';
+import Link from "next/link";
 
 export default function Home() {
   const t = useTranslations();
@@ -25,15 +26,15 @@ export default function Home() {
   // Language switcher component
   const LanguageSwitcher = () => (
     <div className="flex space-x-2">
-      <a href="/ru" className={`px-3 py-1 rounded ${locale === 'ru' ? 'bg-purple-600 text-white' : 'text-gray-300 hover:text-white'}`}>
+      <Link href="/ru" className={`px-3 py-1 rounded ${locale === 'ru' ? 'bg-purple-600 text-white' : 'text-gray-300 hover:text-white'}`}>
         RU
-      </a>
-      <a href="/en" className={`px-3 py-1 rounded ${locale === 'en' ? 'bg-purple-600 text-white' : 'text-gray-300 hover:text-white'}`}>
+      </Link>
+      <Link href="/en" className={`px-3 py-1 rounded ${locale === 'en' ? 'bg-purple-600 text-white' : 'text-gray-300 hover:text-white'}`}>
         EN
-      </a>
-      <a href="/uz" className={`px-3 py-1 rounded ${locale === 'uz' ? 'bg-purple-600 text-white' : 'text-gray-300 hover:text-white'}`}>
+      </Link>
+      <Link href="/uz" className={`px-3 py-1 rounded ${locale === 'uz' ? 'bg-purple-600 text-white' : 'text-gray-300 hover:text-white'}`}>
         UZ
-      </a>
+      </Link>
     </div>
   );
 
