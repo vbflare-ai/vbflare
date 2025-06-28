@@ -120,6 +120,7 @@
     "description": "Innovative IT company creating digital solutions of the future. We turn your ideas into successful products.",
     "services": "Services",
     "company": "Company",
+    "social": "Social Media",
     "links": {
       "webDev": "Web Development",
       "mobileApps": "Mobile Apps",
@@ -128,8 +129,10 @@
       "about": "About",
       "team": "Team",
       "careers": "Careers",
-      "contact": "Contact"
+      "contact": "Contact",
+      "github": "GitHub",
+      "linkedin": "LinkedIn"
     },
-    "copyright": "© 2024 VBflare. All rights reserved. Made with ❤️ by VBflare team"
+    "copyright": "All rights reserved. Made with ❤️ by VBflare team"
   }
 }

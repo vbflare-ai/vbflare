@@ -120,6 +120,7 @@
     "description": "Kelajakning raqamli yechimlarini yaratuvchi innovatsion IT kompaniya. Biz sizning g'oyalaringizni muvaffaqiyatli mahsulotlarga aylantiramiz.",
     "services": "Xizmatlar",
     "company": "Kompaniya",
+    "social": "Ijtimoiy tarmoqlar",
     "links": {
       "webDev": "Veb-dasturlash",
       "mobileApps": "Mobil ilovalar",
@@ -128,8 +129,10 @@
       "about": "Biz haqimizda",
       "team": "Jamoa",
       "careers": "Karyera",
-      "contact": "Aloqa"
+      "contact": "Aloqa",
+      "github": "GitHub",
+      "linkedin": "LinkedIn"
     },
-    "copyright": "© 2024 VBflare. Barcha huquqlar himoyalangan. VBflare jamoasi tomonidan ❤️ bilan yaratilgan"
+    "copyright": "Barcha huquqlar himoyalangan. VBflare jamoasi tomonidan ❤️ bilan yaratilgan"
   }
 }
