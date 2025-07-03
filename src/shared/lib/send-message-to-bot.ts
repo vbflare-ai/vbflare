@@ -34,9 +34,7 @@ export const sendMessageToBot = async ({description, name, email}: SendMessageTo
 
         console.log('Message sent successfully:', response.data);
         return response.data;
-
-    } catch (e: any) {
-        console.error('Error in tg send message:', e.response?.data || e.message);
-        throw new Error(`Failed to send message to Telegram: ${e.response?.data?.description || e.message}`);
+    } catch (e) {
+        console.log('error send tg ', e)
     }
 }
