@@ -108,7 +108,9 @@
       "name": "Your Name",
       "email": "Email",
       "message": "Tell us about your project",
-      "submit": "Send Message"
+      "submit": "Send Message",
+      "sending": "Sending...",
+      "error": "Please fill out all fields"
     },
     "details": {
       "email": "Email",

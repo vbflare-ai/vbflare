@@ -2,25 +2,40 @@
 
 import {useTranslations, useLocale} from 'next-intl';
 import Link from "next/link";
+import {sendMessageToBot} from "@/shared/lib/send-message-to-bot";
+import {useState} from 'react';
 
 export default function Home() {
   const t = useTranslations();
   const locale = useLocale();
+  const [isLoading, setIsLoading] = useState(false);
 
-  const handleSubmit = (e: React.FormEvent<HTMLFormElement>) => {
+  const handleSubmit = async (e: React.FormEvent<HTMLFormElement>) => {
     e.preventDefault();
-    const formData = new FormData(e.currentTarget);
-    const name = formData.get('name');
-    const email = formData.get('email');
-    const message = formData.get('message');
+    setIsLoading(true);
 
-    // Создаем mailto ссылку
-    const subject = `${t('contact.form.title')} ${name}`;
-    const body = `${t('contact.form.name')}: ${name}\n${t('contact.form.email')}: ${email}\n\n${t('contact.form.message')}:\n${message}`;
-    const mailtoLink = `mailto:vbflare.ai@gmail.com?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(body)}`;
+    try {
+      const form = e.currentTarget
+      const formData = new FormData(form);
+      const name = formData.get('name') as string;
+      const email = formData.get('email') as string;
+      const message = formData.get('message') as string;
 
-    // Открываем почтовый клиент
-    window.location.href = mailtoLink;
+      if(!name || !email || !message) {
+        alert(t('contact.form.error'));
+        return;
+      }
+
+      // Send message to bot
+      await sendMessageToBot({name, email, description: message});
+
+      form.reset();
+    } catch (error) {
+      console.error('Error sending message:', error);
+      alert(t('contact.form.error'));
+    } finally {
+      setIsLoading(false);
+    }
   };
 
   // Language switcher component
@@ -374,9 +389,24 @@ export default function Home() {
 
                 <button
                   type="submit"
-                  className="w-full bg-gradient-to-r from-purple-600 to-pink-600 hover:from-purple-700 hover:to-pink-700 text-white py-3 rounded-lg font-semibold transition-all transform hover:scale-105"
+                  disabled={isLoading}
+                  className={`w-full py-3 rounded-lg font-semibold transition-all transform ${
+                    isLoading
+                      ? 'bg-gray-600 cursor-not-allowed'
+                      : 'bg-gradient-to-r from-purple-600 to-pink-600 hover:from-purple-700 hover:to-pink-700 hover:scale-105'
+                  } text-white flex items-center justify-center`}
                 >
-                  {t('contact.form.submit')}
+                  {isLoading ? (
+                    <>
+                      <svg className="animate-spin -ml-1 mr-3 h-5 w-5 text-white" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24">
+                        <circle className="opacity-25" cx="12" cy="12" r="10" stroke="currentColor" strokeWidth="4"></circle>
+                        <path className="opacity-75" fill="currentColor" d="M4 12a8 8 0 018-8V0C5.373 0 0 5.373 0 12h4zm2 5.291A7.962 7.962 0 014 12H0c0 3.042 1.135 5.824 3 7.938l3-2.647z"></path>
+                      </svg>
+                      {t('contact.form.sending')}
+                    </>
+                  ) : (
+                    t('contact.form.submit')
+                  )}
                 </button>
               </form>
             </div>

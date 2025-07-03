@@ -108,7 +108,9 @@
       "name": "Ismingiz",
       "email": "Email",
       "message": "Loyihangiz haqida gapirib bering",
-      "submit": "Xabar yuborish"
+      "submit": "Xabar yuborish",
+      "sending": "Yuborilmoqda...",
+      "error": "Iltimos, ma'lumotlarni to'g'ri to'ldiring"
     },
     "details": {
       "email": "Email",
